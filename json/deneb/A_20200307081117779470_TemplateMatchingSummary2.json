@@ -1,0 +1,72 @@
+{
+    "priorServiceName": "TemplateMatchingSummary2",
+    "priorDirectoryOfService": "/home/latona/deneb/Runtime/template-matching-summary2",
+    "priorRuntime": {
+        "type": "python",
+        "run": "main.py"
+    },
+    "transactionCodes": {
+        "transactionCode2": "5f6571b62b06f1d0aac71a49773f64423850b97f8a73353fe3bca7f1",
+        "transactionCode1": "1c9ba593fd4a4c264b8ecd74828303e3046ba5971e64907bc368cc91",
+        "transactionCode0": "e7deb23c769cd593c37ed360ee9535815c547d9f4463cc1e7a6f58ce"
+    },
+    "inputFileName": "/home/latona/deneb/Data/template-matching-by-opencv/A_20200307081117779470_TemplateMatchingByOpenCV.json",
+    "intputHeader": {
+        "type": "file",
+        "content": "jpeg-picture"
+    },
+    "outputHeader": {
+        "type": "file",
+        "content": "output-json"
+    },
+    "outputFileName": "/home/latona/deneb/Data/template-matching-summary2/A_20200307081117779470_TemplateMatchingSummary2.json",
+    "priorServiceDevice": "deneb",
+    "startAt": "2020-03-07T08:11:18.759916Z",
+    "finishAt": "2020-03-07T08:11:19.145285Z",
+    "inputHeader": {
+        "type": "file",
+        "content": "output-json"
+    },
+    "priorSuccess": true,
+    "metadata": [
+        {
+            "key": "TemplateMatchingSummary",
+            "value": {
+                "session_id": "58ad5e32-1ba8-42ee-8960-6d3dae856c53",
+                "n_requests": 1,
+                "n_data": 10,
+                "start_timestamp": "2020-03-07T17:11:18.966528",
+                "timestamp": "2020-03-07T17:11:18.966528",
+                "end_timestamp": null,
+                "trigger": {
+                    "status": true,
+                    "values": [
+                        {
+                            "n_data": 1,
+                            "matching_rate": 0.9984925389289856,
+                            "matching_points": {
+                                "x": 476,
+                                "y": 37,
+                                "w": 104,
+                                "h": 104
+                            },
+                            "vehicle_id": 3,
+                            "vehicle_name": "LS",
+                            "template_id": 59,
+                            "is_car_end": 0,
+                            "pass_threshold": 0.8,
+                            "n_requests": 1,
+                            "input_path": "/home/latona/deneb/Data/just-list-pictures/file/input/11-35-35_LS/20200302114018029.jpg",
+                            "output_path": "/home/latona/deneb/Data/template-matching-by-opencv/file/output/20200302114018029.jpg"
+                        }
+                    ]
+                },
+                "end": {
+                    "status": false,
+                    "values": []
+                },
+                "status": true
+            }
+        }
+    ]
+}

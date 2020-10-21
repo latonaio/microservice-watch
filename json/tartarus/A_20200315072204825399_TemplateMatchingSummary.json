@@ -1,0 +1,113 @@
+{
+    "priorServiceName": "TemplateMatchingSummary",
+    "priorDirectoryOfService": "/home/latona/tartarus/Runtime/template-matching-summary",
+    "priorRuntime": {
+        "type": "python",
+        "run": "main.py"
+    },
+    "transactionCodes": {
+        "transactionCode2": "ebcbd09fc2609bed2da984ed8a1f5a7dde0f2f800b5e72532d2d3801",
+        "transactionCode1": "59cb1565b8e4cb0b8f27f605d1058d9e62e4fbc8cf0e7f2d850ac94d",
+        "transactionCode0": "7d48cc5359a290bb6058ad077a7e60be6c0ae9f562e40d6da0f593fb"
+    },
+    "inputFileName": "/home/latona/tartarus/Data/template-matching-by-opencv/A_20200315072204825399_TemplateMatchingByOpenCV.json",
+    "intputHeader": {
+        "type": "file",
+        "content": "jpeg-picture"
+    },
+    "outputHeader": {
+        "type": "file",
+        "content": "output-json"
+    },
+    "outputFileName": "/home/latona/tartarus/Data/template-matching-summary/A_20200315072204825399_TemplateMatchingSummary.json",
+    "priorServiceDevice": "tartarus",
+    "startAt": "2020-03-15T07:22:06.079930Z",
+    "finishAt": "2020-03-15T07:22:06.547538Z",
+    "inputHeader": {
+        "type": "file",
+        "content": "output-json"
+    },
+    "priorSuccess": true,
+    "metadata": [
+        {
+            "key": "TemplateMatchingSummary",
+            "value": {
+                "session_id": "af01e47f-3165-4a8b-a37b-d7038dbd9489",
+                "n_requests": 24,
+                "n_data": 120,
+                "start_timestamp": "2020-03-15T16:21:55.137715",
+                "timestamp": "2020-03-15T16:22:06.281482",
+                "end_timestamp": null,
+                "vehicle": {
+                    "status": true,
+                    "name": "LS",
+                    "first": true,
+                    "values": [
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114015333.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114015333.jpg",
+                            "n_requests": 24,
+                            "n_data": 119,
+                            "matching_rate": 0.9602355360984802,
+                            "matching_points": {
+                                "x": 482,
+                                "y": 135,
+                                "w": 94,
+                                "h": 247
+                            },
+                            "vehicle_id": 3,
+                            "vehicle_name": "LS",
+                            "template_id": 7,
+                            "is_car_end": 0,
+                            "pass_threshold": 0.8
+                        },
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114015433.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114015433.jpg",
+                            "n_requests": 24,
+                            "n_data": 120,
+                            "matching_rate": 0.9677594900131226,
+                            "matching_points": {
+                                "x": 482,
+                                "y": 159,
+                                "w": 94,
+                                "h": 247
+                            },
+                            "vehicle_id": 3,
+                            "vehicle_name": "LS",
+                            "template_id": 7,
+                            "is_car_end": 0,
+                            "pass_threshold": 0.8
+                        }
+                    ]
+                },
+                "end": {
+                    "status": false,
+                    "values": []
+                },
+                "status": true
+            }
+        },
+        {
+            "key": "TemplateMatchingSetTemplates",
+            "value": {
+                "args": {
+                    "vehicle": true,
+                    "vehicle_name": "LS",
+                    "end": true
+                }
+            }
+        }
+    ],
+    "nextServiceList": [
+        {
+            "nextServiceName": "TemplateMatchingSetTemplates",
+            "nextDirectoryOfService": "/home/latona/deneb/Runtime/template-matching-set-templates",
+            "nextRuntime": {
+                "type": "python",
+                "run": "main.py"
+            },
+            "nextServiceDevice": "deneb"
+        }
+    ]
+}

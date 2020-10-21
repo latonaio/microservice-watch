@@ -1,0 +1,203 @@
+{
+    "priorServiceName": "TemplateMatchingSummary",
+    "priorDirectoryOfService": "/home/latona/tartarus/Runtime/template-matching-summary",
+    "priorRuntime": {
+        "type": "python",
+        "run": "main.py"
+    },
+    "transactionCodes": {
+        "transactionCode2": "2ea9a7f89fc78ca697bad89c3c31570b389eb407a4b681d72a5818ef",
+        "transactionCode1": "0799240d09d6f2fcdce0f467e5fd31c14e87c1cdef4ecc2ea5048b02",
+        "transactionCode0": "a1810ea9c36ee99825dc506508156187f7e9731a6a9602c32b95a05e"
+    },
+    "inputFileName": "/home/latona/tartarus/Data/template-matching-by-opencv/A_20200315072221371567_TemplateMatchingByOpenCV.json",
+    "intputHeader": {
+        "type": "file",
+        "content": "jpeg-picture"
+    },
+    "outputHeader": {
+        "type": "file",
+        "content": "output-json"
+    },
+    "outputFileName": "/home/latona/tartarus/Data/template-matching-summary/A_20200315072221371567_TemplateMatchingSummary.json",
+    "priorServiceDevice": "tartarus",
+    "startAt": "2020-03-15T07:22:22.582860Z",
+    "finishAt": "2020-03-15T07:22:23.126918Z",
+    "inputHeader": {
+        "type": "file",
+        "content": "output-json"
+    },
+    "priorSuccess": true,
+    "metadata": [
+        {
+            "key": "TemplateMatchingSummary",
+            "value": {
+                "session_id": "2ff3b934-dbbd-4c17-8a95-9ecddd5c3659",
+                "n_requests": 1,
+                "n_data": 5,
+                "start_timestamp": "2020-03-15T16:22:22.861060",
+                "timestamp": "2020-03-15T16:22:22.861060",
+                "end_timestamp": "2020-03-15T16:22:22.861060",
+                "vehicle": {
+                    "status": false,
+                    "name": "Unknown",
+                    "first": false,
+                    "values": []
+                },
+                "end": {
+                    "status": true,
+                    "values": [
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114031629.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114031629.jpg",
+                            "n_requests": 1,
+                            "n_data": 2,
+                            "matching_rate": 0.800417423248291,
+                            "matching_points": {
+                                "x": 264,
+                                "y": 401,
+                                "w": 538,
+                                "h": 65
+                            },
+                            "vehicle_id": 1,
+                            "vehicle_name": "IS_2WD",
+                            "template_id": 17,
+                            "is_car_end": 1,
+                            "pass_threshold": 0.8
+                        },
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114031729.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114031729.jpg",
+                            "n_requests": 1,
+                            "n_data": 3,
+                            "matching_rate": 0.8579241633415222,
+                            "matching_points": {
+                                "x": 337,
+                                "y": 413,
+                                "w": 385,
+                                "h": 106
+                            },
+                            "vehicle_id": 1,
+                            "vehicle_name": "IS_2WD",
+                            "template_id": 16,
+                            "is_car_end": 1,
+                            "pass_threshold": 0.8
+                        },
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114031729.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114031729.jpg",
+                            "n_requests": 1,
+                            "n_data": 3,
+                            "matching_rate": 0.8066076636314392,
+                            "matching_points": {
+                                "x": 264,
+                                "y": 407,
+                                "w": 538,
+                                "h": 65
+                            },
+                            "vehicle_id": 1,
+                            "vehicle_name": "IS_2WD",
+                            "template_id": 17,
+                            "is_car_end": 1,
+                            "pass_threshold": 0.8
+                        },
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114031829.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114031829.jpg",
+                            "n_requests": 1,
+                            "n_data": 4,
+                            "matching_rate": 0.9133272767066956,
+                            "matching_points": {
+                                "x": 337,
+                                "y": 420,
+                                "w": 385,
+                                "h": 106
+                            },
+                            "vehicle_id": 1,
+                            "vehicle_name": "IS_2WD",
+                            "template_id": 16,
+                            "is_car_end": 1,
+                            "pass_threshold": 0.8
+                        },
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114031829.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114031829.jpg",
+                            "n_requests": 1,
+                            "n_data": 4,
+                            "matching_rate": 0.8083985447883606,
+                            "matching_points": {
+                                "x": 264,
+                                "y": 413,
+                                "w": 538,
+                                "h": 65
+                            },
+                            "vehicle_id": 1,
+                            "vehicle_name": "IS_2WD",
+                            "template_id": 17,
+                            "is_car_end": 1,
+                            "pass_threshold": 0.8
+                        },
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114031929.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114031929.jpg",
+                            "n_requests": 1,
+                            "n_data": 5,
+                            "matching_rate": 0.9608957767486572,
+                            "matching_points": {
+                                "x": 337,
+                                "y": 427,
+                                "w": 385,
+                                "h": 106
+                            },
+                            "vehicle_id": 1,
+                            "vehicle_name": "IS_2WD",
+                            "template_id": 16,
+                            "is_car_end": 1,
+                            "pass_threshold": 0.8
+                        },
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114031929.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114031929.jpg",
+                            "n_requests": 1,
+                            "n_data": 5,
+                            "matching_rate": 0.8066295981407166,
+                            "matching_points": {
+                                "x": 263,
+                                "y": 420,
+                                "w": 538,
+                                "h": 65
+                            },
+                            "vehicle_id": 1,
+                            "vehicle_name": "IS_2WD",
+                            "template_id": 17,
+                            "is_car_end": 1,
+                            "pass_threshold": 0.8
+                        }
+                    ]
+                },
+                "status": true
+            }
+        },
+        {
+            "key": "TemplateMatchingSetTemplates",
+            "value": {
+                "args": {
+                    "vehicle": false,
+                    "vehicle_name": "",
+                    "end": true
+                }
+            }
+        }
+    ],
+    "nextServiceList": [
+        {
+            "nextServiceName": "TemplateMatchingSetTemplates",
+            "nextDirectoryOfService": "/home/latona/deneb/Runtime/template-matching-set-templates",
+            "nextRuntime": {
+                "type": "python",
+                "run": "main.py"
+            },
+            "nextServiceDevice": "deneb"
+        }
+    ]
+}

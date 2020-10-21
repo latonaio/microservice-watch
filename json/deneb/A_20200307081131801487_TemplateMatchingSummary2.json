@@ -1,0 +1,216 @@
+{
+    "priorServiceName": "TemplateMatchingSummary2",
+    "priorDirectoryOfService": "/home/latona/deneb/Runtime/template-matching-summary2",
+    "priorRuntime": {
+        "type": "python",
+        "run": "main.py"
+    },
+    "transactionCodes": {
+        "transactionCode2": "7d005cc59ac5d41129bb1f97795adf1a16318d5eb75e690c8c654c73",
+        "transactionCode1": "718271d6570841566eb0f7a321db92f37d8c8df80ca4b13c2835b60b",
+        "transactionCode0": "499bfd23ea09cd5d80da7dcb8ccee4ffdb7c38d4e60a1e64af0b8fce"
+    },
+    "inputFileName": "/home/latona/deneb/Data/template-matching-by-opencv/A_20200307081131801487_TemplateMatchingByOpenCV.json",
+    "intputHeader": {
+        "type": "file",
+        "content": "jpeg-picture"
+    },
+    "outputHeader": {
+        "type": "file",
+        "content": "output-json"
+    },
+    "outputFileName": "/home/latona/deneb/Data/template-matching-summary2/A_20200307081131801487_TemplateMatchingSummary2.json",
+    "priorServiceDevice": "deneb",
+    "startAt": "2020-03-07T08:11:32.818759Z",
+    "finishAt": "2020-03-07T08:11:33.294860Z",
+    "inputHeader": {
+        "type": "file",
+        "content": "output-json"
+    },
+    "priorSuccess": true,
+    "metadata": [
+        {
+            "key": "TemplateMatchingSummary",
+            "value": {
+                "session_id": "a68baf5b-7e3c-4232-ab62-b077c0380440",
+                "n_requests": 1,
+                "n_data": 10,
+                "start_timestamp": "2020-03-07T17:11:33.010755",
+                "timestamp": "2020-03-07T17:11:33.010755",
+                "end_timestamp": "2020-03-07T17:11:33.010755",
+                "trigger": {
+                    "status": false,
+                    "values": []
+                },
+                "end": {
+                    "status": true,
+                    "values": [
+                        {
+                            "n_data": 1,
+                            "matching_rate": 0.9984710812568665,
+                            "matching_points": {
+                                "x": 337,
+                                "y": 434,
+                                "w": 385,
+                                "h": 106
+                            },
+                            "vehicle_id": 1,
+                            "vehicle_name": "IS_2WD",
+                            "template_id": 53,
+                            "is_car_end": 1,
+                            "pass_threshold": 0.8,
+                            "n_requests": 1,
+                            "input_path": "/home/latona/deneb/Data/just-list-pictures/file/input/11-35-35_LS/20200302114032029.jpg",
+                            "output_path": "/home/latona/deneb/Data/template-matching-by-opencv/file/output/20200302114032029.jpg"
+                        },
+                        {
+                            "n_data": 1,
+                            "matching_rate": 0.811302125453949,
+                            "matching_points": {
+                                "x": 263,
+                                "y": 426,
+                                "w": 538,
+                                "h": 65
+                            },
+                            "vehicle_id": 1,
+                            "vehicle_name": "IS_2WD",
+                            "template_id": 54,
+                            "is_car_end": 1,
+                            "pass_threshold": 0.8,
+                            "n_requests": 1,
+                            "input_path": "/home/latona/deneb/Data/just-list-pictures/file/input/11-35-35_LS/20200302114032029.jpg",
+                            "output_path": "/home/latona/deneb/Data/template-matching-by-opencv/file/output/20200302114032029.jpg"
+                        },
+                        {
+                            "n_data": 2,
+                            "matching_rate": 0.9680683016777039,
+                            "matching_points": {
+                                "x": 337,
+                                "y": 441,
+                                "w": 385,
+                                "h": 106
+                            },
+                            "vehicle_id": 1,
+                            "vehicle_name": "IS_2WD",
+                            "template_id": 53,
+                            "is_car_end": 1,
+                            "pass_threshold": 0.8,
+                            "n_requests": 1,
+                            "input_path": "/home/latona/deneb/Data/just-list-pictures/file/input/11-35-35_LS/20200302114032129.jpg",
+                            "output_path": "/home/latona/deneb/Data/template-matching-by-opencv/file/output/20200302114032129.jpg"
+                        },
+                        {
+                            "n_data": 2,
+                            "matching_rate": 0.811180830001831,
+                            "matching_points": {
+                                "x": 271,
+                                "y": 430,
+                                "w": 538,
+                                "h": 65
+                            },
+                            "vehicle_id": 1,
+                            "vehicle_name": "IS_2WD",
+                            "template_id": 54,
+                            "is_car_end": 1,
+                            "pass_threshold": 0.8,
+                            "n_requests": 1,
+                            "input_path": "/home/latona/deneb/Data/just-list-pictures/file/input/11-35-35_LS/20200302114032129.jpg",
+                            "output_path": "/home/latona/deneb/Data/template-matching-by-opencv/file/output/20200302114032129.jpg"
+                        },
+                        {
+                            "n_data": 3,
+                            "matching_rate": 0.9253304600715637,
+                            "matching_points": {
+                                "x": 337,
+                                "y": 448,
+                                "w": 385,
+                                "h": 106
+                            },
+                            "vehicle_id": 1,
+                            "vehicle_name": "IS_2WD",
+                            "template_id": 53,
+                            "is_car_end": 1,
+                            "pass_threshold": 0.8,
+                            "n_requests": 1,
+                            "input_path": "/home/latona/deneb/Data/just-list-pictures/file/input/11-35-35_LS/20200302114032229.jpg",
+                            "output_path": "/home/latona/deneb/Data/template-matching-by-opencv/file/output/20200302114032229.jpg"
+                        },
+                        {
+                            "n_data": 3,
+                            "matching_rate": 0.8203808069229126,
+                            "matching_points": {
+                                "x": 274,
+                                "y": 436,
+                                "w": 538,
+                                "h": 65
+                            },
+                            "vehicle_id": 1,
+                            "vehicle_name": "IS_2WD",
+                            "template_id": 54,
+                            "is_car_end": 1,
+                            "pass_threshold": 0.8,
+                            "n_requests": 1,
+                            "input_path": "/home/latona/deneb/Data/just-list-pictures/file/input/11-35-35_LS/20200302114032229.jpg",
+                            "output_path": "/home/latona/deneb/Data/template-matching-by-opencv/file/output/20200302114032229.jpg"
+                        },
+                        {
+                            "n_data": 4,
+                            "matching_rate": 0.8610369563102722,
+                            "matching_points": {
+                                "x": 338,
+                                "y": 455,
+                                "w": 385,
+                                "h": 106
+                            },
+                            "vehicle_id": 1,
+                            "vehicle_name": "IS_2WD",
+                            "template_id": 53,
+                            "is_car_end": 1,
+                            "pass_threshold": 0.8,
+                            "n_requests": 1,
+                            "input_path": "/home/latona/deneb/Data/just-list-pictures/file/input/11-35-35_LS/20200302114032329.jpg",
+                            "output_path": "/home/latona/deneb/Data/template-matching-by-opencv/file/output/20200302114032329.jpg"
+                        },
+                        {
+                            "n_data": 4,
+                            "matching_rate": 0.8117961883544922,
+                            "matching_points": {
+                                "x": 275,
+                                "y": 441,
+                                "w": 538,
+                                "h": 65
+                            },
+                            "vehicle_id": 1,
+                            "vehicle_name": "IS_2WD",
+                            "template_id": 54,
+                            "is_car_end": 1,
+                            "pass_threshold": 0.8,
+                            "n_requests": 1,
+                            "input_path": "/home/latona/deneb/Data/just-list-pictures/file/input/11-35-35_LS/20200302114032329.jpg",
+                            "output_path": "/home/latona/deneb/Data/template-matching-by-opencv/file/output/20200302114032329.jpg"
+                        },
+                        {
+                            "n_data": 5,
+                            "matching_rate": 0.8043748736381531,
+                            "matching_points": {
+                                "x": 275,
+                                "y": 447,
+                                "w": 538,
+                                "h": 65
+                            },
+                            "vehicle_id": 1,
+                            "vehicle_name": "IS_2WD",
+                            "template_id": 54,
+                            "is_car_end": 1,
+                            "pass_threshold": 0.8,
+                            "n_requests": 1,
+                            "input_path": "/home/latona/deneb/Data/just-list-pictures/file/input/11-35-35_LS/20200302114032429.jpg",
+                            "output_path": "/home/latona/deneb/Data/template-matching-by-opencv/file/output/20200302114032429.jpg"
+                        }
+                    ]
+                },
+                "status": true
+            }
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: microservice-watch
+spec:
+  selector:
+    matchLabels:
+      app: microservice-watch
+  template:
+    metadata:
+      labels:
+        app: microservice-watch
+    spec:
+      containers:
+      - name: microservice-watch
+        imagePullPolicy: IfNotPresent
+        image: latonaio/microservice-watch:latest
+        command:
+          - /bin/sh
+          - -c
+          - "while :; do sleep 10; done"
+        env:
+          - name: CONNECTION_MODE
+            value: direct
+          - name: CURRENT_DEVICE_NAME
+            value: tartarus
+        resources:
+          limits:
+            memory: "256Mi"
+            cpu: "500m"
+        volumeMounts:
+          - name: scripts
+            mountPath: /var/lib/aion/Runtime/microservice-watch
+      volumes:
+        - name: scripts
+          hostPath:
+            path: /home/latona/workspace/microservice-watch

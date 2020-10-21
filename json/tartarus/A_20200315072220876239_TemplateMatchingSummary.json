@@ -1,0 +1,1104 @@
+{
+    "priorServiceName": "TemplateMatchingSummary",
+    "priorDirectoryOfService": "/home/latona/tartarus/Runtime/template-matching-summary",
+    "priorRuntime": {
+        "type": "python",
+        "run": "main.py"
+    },
+    "transactionCodes": {
+        "transactionCode2": "5c0ec98b6903c31263db2b3d9a4a8656a2860efcc450cabeb6641537",
+        "transactionCode1": "816e9b6a38bef6a3c6a6ae56548fba21a3fdcdba7d57473918eab025",
+        "transactionCode0": "0e17eaacf13890d1965a2bec3da3371707464bd631c2226bad92114b"
+    },
+    "inputFileName": "/home/latona/tartarus/Data/template-matching-by-opencv/A_20200315072220876239_TemplateMatchingByOpenCV.json",
+    "intputHeader": {
+        "type": "file",
+        "content": "jpeg-picture"
+    },
+    "outputHeader": {
+        "type": "file",
+        "content": "output-json"
+    },
+    "outputFileName": "/home/latona/tartarus/Data/template-matching-summary/A_20200315072220876239_TemplateMatchingSummary.json",
+    "priorServiceDevice": "tartarus",
+    "startAt": "2020-03-15T07:22:22.216801Z",
+    "finishAt": "2020-03-15T07:22:22.910080Z",
+    "inputHeader": {
+        "type": "file",
+        "content": "output-json"
+    },
+    "priorSuccess": true,
+    "metadata": [
+        {
+            "key": "TemplateMatchingSummary",
+            "value": {
+                "session_id": "af01e47f-3165-4a8b-a37b-d7038dbd9489",
+                "n_requests": 55,
+                "n_data": 275,
+                "start_timestamp": "2020-03-15T16:21:55.137715",
+                "timestamp": "2020-03-15T16:22:22.479696",
+                "end_timestamp": "2020-03-15T16:22:22.479696",
+                "vehicle": {
+                    "status": true,
+                    "name": "LS",
+                    "first": false,
+                    "values": [
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114015333.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114015333.jpg",
+                            "n_requests": 24,
+                            "n_data": 119,
+                            "matching_rate": 0.9602355360984802,
+                            "matching_points": {
+                                "x": 482,
+                                "y": 135,
+                                "w": 94,
+                                "h": 247
+                            },
+                            "vehicle_id": 3,
+                            "vehicle_name": "LS",
+                            "template_id": 7,
+                            "is_car_end": 0,
+                            "pass_threshold": 0.8
+                        },
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114015433.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114015433.jpg",
+                            "n_requests": 24,
+                            "n_data": 120,
+                            "matching_rate": 0.9677594900131226,
+                            "matching_points": {
+                                "x": 482,
+                                "y": 159,
+                                "w": 94,
+                                "h": 247
+                            },
+                            "vehicle_id": 3,
+                            "vehicle_name": "LS",
+                            "template_id": 7,
+                            "is_car_end": 0,
+                            "pass_threshold": 0.8
+                        },
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114015533.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114015533.jpg",
+                            "n_requests": 25,
+                            "n_data": 121,
+                            "matching_rate": 0.9715267419815063,
+                            "matching_points": {
+                                "x": 482,
+                                "y": 185,
+                                "w": 94,
+                                "h": 247
+                            },
+                            "vehicle_id": 3,
+                            "vehicle_name": "LS",
+                            "template_id": 7,
+                            "is_car_end": 0,
+                            "pass_threshold": 0.8
+                        },
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114015629.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114015629.jpg",
+                            "n_requests": 25,
+                            "n_data": 122,
+                            "matching_rate": 0.9734368324279785,
+                            "matching_points": {
+                                "x": 481,
+                                "y": 210,
+                                "w": 94,
+                                "h": 247
+                            },
+                            "vehicle_id": 3,
+                            "vehicle_name": "LS",
+                            "template_id": 7,
+                            "is_car_end": 0,
+                            "pass_threshold": 0.8
+                        },
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114015730.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114015730.jpg",
+                            "n_requests": 25,
+                            "n_data": 123,
+                            "matching_rate": 0.9958441853523254,
+                            "matching_points": {
+                                "x": 481,
+                                "y": 235,
+                                "w": 94,
+                                "h": 247
+                            },
+                            "vehicle_id": 3,
+                            "vehicle_name": "LS",
+                            "template_id": 7,
+                            "is_car_end": 0,
+                            "pass_threshold": 0.8
+                        },
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114015829.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114015829.jpg",
+                            "n_requests": 25,
+                            "n_data": 124,
+                            "matching_rate": 0.9762077927589417,
+                            "matching_points": {
+                                "x": 480,
+                                "y": 260,
+                                "w": 94,
+                                "h": 247
+                            },
+                            "vehicle_id": 3,
+                            "vehicle_name": "LS",
+                            "template_id": 7,
+                            "is_car_end": 0,
+                            "pass_threshold": 0.8
+                        },
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114015934.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114015934.jpg",
+                            "n_requests": 25,
+                            "n_data": 125,
+                            "matching_rate": 0.9713643193244934,
+                            "matching_points": {
+                                "x": 480,
+                                "y": 286,
+                                "w": 94,
+                                "h": 247
+                            },
+                            "vehicle_id": 3,
+                            "vehicle_name": "LS",
+                            "template_id": 7,
+                            "is_car_end": 0,
+                            "pass_threshold": 0.8
+                        },
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114016029.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114016029.jpg",
+                            "n_requests": 26,
+                            "n_data": 126,
+                            "matching_rate": 0.9732136726379395,
+                            "matching_points": {
+                                "x": 479,
+                                "y": 311,
+                                "w": 94,
+                                "h": 247
+                            },
+                            "vehicle_id": 3,
+                            "vehicle_name": "LS",
+                            "template_id": 7,
+                            "is_car_end": 0,
+                            "pass_threshold": 0.8
+                        },
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114016129.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114016129.jpg",
+                            "n_requests": 26,
+                            "n_data": 127,
+                            "matching_rate": 0.9678989052772522,
+                            "matching_points": {
+                                "x": 478,
+                                "y": 335,
+                                "w": 94,
+                                "h": 247
+                            },
+                            "vehicle_id": 3,
+                            "vehicle_name": "LS",
+                            "template_id": 7,
+                            "is_car_end": 0,
+                            "pass_threshold": 0.8
+                        },
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114026134.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114026134.jpg",
+                            "n_requests": 46,
+                            "n_data": 227,
+                            "matching_rate": 0.8109714984893799,
+                            "matching_points": {
+                                "x": 456,
+                                "y": 189,
+                                "w": 122,
+                                "h": 99
+                            },
+                            "vehicle_id": 3,
+                            "vehicle_name": "LS",
+                            "template_id": 8,
+                            "is_car_end": 0,
+                            "pass_threshold": 0.8
+                        },
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114026229.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114026229.jpg",
+                            "n_requests": 46,
+                            "n_data": 228,
+                            "matching_rate": 0.9563709497451782,
+                            "matching_points": {
+                                "x": 456,
+                                "y": 193,
+                                "w": 122,
+                                "h": 99
+                            },
+                            "vehicle_id": 3,
+                            "vehicle_name": "LS",
+                            "template_id": 8,
+                            "is_car_end": 0,
+                            "pass_threshold": 0.8
+                        },
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114026329.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114026329.jpg",
+                            "n_requests": 46,
+                            "n_data": 229,
+                            "matching_rate": 0.95123291015625,
+                            "matching_points": {
+                                "x": 457,
+                                "y": 200,
+                                "w": 122,
+                                "h": 99
+                            },
+                            "vehicle_id": 3,
+                            "vehicle_name": "LS",
+                            "template_id": 8,
+                            "is_car_end": 0,
+                            "pass_threshold": 0.8
+                        },
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114026429.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114026429.jpg",
+                            "n_requests": 46,
+                            "n_data": 230,
+                            "matching_rate": 0.9554367065429688,
+                            "matching_points": {
+                                "x": 457,
+                                "y": 208,
+                                "w": 122,
+                                "h": 99
+                            },
+                            "vehicle_id": 3,
+                            "vehicle_name": "LS",
+                            "template_id": 8,
+                            "is_car_end": 0,
+                            "pass_threshold": 0.8
+                        },
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114026529.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114026529.jpg",
+                            "n_requests": 47,
+                            "n_data": 231,
+                            "matching_rate": 0.9441879391670227,
+                            "matching_points": {
+                                "x": 457,
+                                "y": 216,
+                                "w": 122,
+                                "h": 99
+                            },
+                            "vehicle_id": 3,
+                            "vehicle_name": "LS",
+                            "template_id": 8,
+                            "is_car_end": 0,
+                            "pass_threshold": 0.8
+                        },
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114026629.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114026629.jpg",
+                            "n_requests": 47,
+                            "n_data": 232,
+                            "matching_rate": 0.960864245891571,
+                            "matching_points": {
+                                "x": 457,
+                                "y": 223,
+                                "w": 122,
+                                "h": 99
+                            },
+                            "vehicle_id": 3,
+                            "vehicle_name": "LS",
+                            "template_id": 8,
+                            "is_car_end": 0,
+                            "pass_threshold": 0.8
+                        },
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114026629.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114026629.jpg",
+                            "n_requests": 47,
+                            "n_data": 232,
+                            "matching_rate": 0.9685361981391907,
+                            "matching_points": {
+                                "x": 438,
+                                "y": 315,
+                                "w": 211,
+                                "h": 46
+                            },
+                            "vehicle_id": 3,
+                            "vehicle_name": "LS",
+                            "template_id": 9,
+                            "is_car_end": 0,
+                            "pass_threshold": 0.8
+                        },
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114026729.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114026729.jpg",
+                            "n_requests": 47,
+                            "n_data": 233,
+                            "matching_rate": 0.965122640132904,
+                            "matching_points": {
+                                "x": 457,
+                                "y": 230,
+                                "w": 122,
+                                "h": 99
+                            },
+                            "vehicle_id": 3,
+                            "vehicle_name": "LS",
+                            "template_id": 8,
+                            "is_car_end": 0,
+                            "pass_threshold": 0.8
+                        },
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114026729.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114026729.jpg",
+                            "n_requests": 47,
+                            "n_data": 233,
+                            "matching_rate": 0.9752201437950134,
+                            "matching_points": {
+                                "x": 437,
+                                "y": 323,
+                                "w": 211,
+                                "h": 46
+                            },
+                            "vehicle_id": 3,
+                            "vehicle_name": "LS",
+                            "template_id": 9,
+                            "is_car_end": 0,
+                            "pass_threshold": 0.8
+                        },
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114026829.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114026829.jpg",
+                            "n_requests": 47,
+                            "n_data": 234,
+                            "matching_rate": 0.9713155031204224,
+                            "matching_points": {
+                                "x": 457,
+                                "y": 238,
+                                "w": 122,
+                                "h": 99
+                            },
+                            "vehicle_id": 3,
+                            "vehicle_name": "LS",
+                            "template_id": 8,
+                            "is_car_end": 0,
+                            "pass_threshold": 0.8
+                        },
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114026829.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114026829.jpg",
+                            "n_requests": 47,
+                            "n_data": 234,
+                            "matching_rate": 0.9738863706588745,
+                            "matching_points": {
+                                "x": 437,
+                                "y": 331,
+                                "w": 211,
+                                "h": 46
+                            },
+                            "vehicle_id": 3,
+                            "vehicle_name": "LS",
+                            "template_id": 9,
+                            "is_car_end": 0,
+                            "pass_threshold": 0.8
+                        },
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114026929.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114026929.jpg",
+                            "n_requests": 47,
+                            "n_data": 235,
+                            "matching_rate": 0.9735932350158691,
+                            "matching_points": {
+                                "x": 457,
+                                "y": 245,
+                                "w": 122,
+                                "h": 99
+                            },
+                            "vehicle_id": 3,
+                            "vehicle_name": "LS",
+                            "template_id": 8,
+                            "is_car_end": 0,
+                            "pass_threshold": 0.8
+                        },
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114026929.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114026929.jpg",
+                            "n_requests": 47,
+                            "n_data": 235,
+                            "matching_rate": 0.9691451191902161,
+                            "matching_points": {
+                                "x": 438,
+                                "y": 339,
+                                "w": 211,
+                                "h": 46
+                            },
+                            "vehicle_id": 3,
+                            "vehicle_name": "LS",
+                            "template_id": 9,
+                            "is_car_end": 0,
+                            "pass_threshold": 0.8
+                        },
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114027029.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114027029.jpg",
+                            "n_requests": 48,
+                            "n_data": 236,
+                            "matching_rate": 0.9683342576026917,
+                            "matching_points": {
+                                "x": 457,
+                                "y": 252,
+                                "w": 122,
+                                "h": 99
+                            },
+                            "vehicle_id": 3,
+                            "vehicle_name": "LS",
+                            "template_id": 8,
+                            "is_car_end": 0,
+                            "pass_threshold": 0.8
+                        },
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114027029.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114027029.jpg",
+                            "n_requests": 48,
+                            "n_data": 236,
+                            "matching_rate": 0.9749541878700256,
+                            "matching_points": {
+                                "x": 438,
+                                "y": 346,
+                                "w": 211,
+                                "h": 46
+                            },
+                            "vehicle_id": 3,
+                            "vehicle_name": "LS",
+                            "template_id": 9,
+                            "is_car_end": 0,
+                            "pass_threshold": 0.8
+                        },
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114027129.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114027129.jpg",
+                            "n_requests": 48,
+                            "n_data": 237,
+                            "matching_rate": 0.9756171703338623,
+                            "matching_points": {
+                                "x": 457,
+                                "y": 260,
+                                "w": 122,
+                                "h": 99
+                            },
+                            "vehicle_id": 3,
+                            "vehicle_name": "LS",
+                            "template_id": 8,
+                            "is_car_end": 0,
+                            "pass_threshold": 0.8
+                        },
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114027129.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114027129.jpg",
+                            "n_requests": 48,
+                            "n_data": 237,
+                            "matching_rate": 0.9709797501564026,
+                            "matching_points": {
+                                "x": 438,
+                                "y": 353,
+                                "w": 211,
+                                "h": 46
+                            },
+                            "vehicle_id": 3,
+                            "vehicle_name": "LS",
+                            "template_id": 9,
+                            "is_car_end": 0,
+                            "pass_threshold": 0.8
+                        },
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114027229.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114027229.jpg",
+                            "n_requests": 48,
+                            "n_data": 238,
+                            "matching_rate": 0.9667735695838928,
+                            "matching_points": {
+                                "x": 437,
+                                "y": 361,
+                                "w": 211,
+                                "h": 46
+                            },
+                            "vehicle_id": 3,
+                            "vehicle_name": "LS",
+                            "template_id": 9,
+                            "is_car_end": 0,
+                            "pass_threshold": 0.8
+                        },
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114027229.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114027229.jpg",
+                            "n_requests": 48,
+                            "n_data": 238,
+                            "matching_rate": 0.9813242554664612,
+                            "matching_points": {
+                                "x": 457,
+                                "y": 267,
+                                "w": 122,
+                                "h": 99
+                            },
+                            "vehicle_id": 3,
+                            "vehicle_name": "LS",
+                            "template_id": 8,
+                            "is_car_end": 0,
+                            "pass_threshold": 0.8
+                        },
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114027329.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114027329.jpg",
+                            "n_requests": 48,
+                            "n_data": 239,
+                            "matching_rate": 0.9786701202392578,
+                            "matching_points": {
+                                "x": 457,
+                                "y": 275,
+                                "w": 122,
+                                "h": 99
+                            },
+                            "vehicle_id": 3,
+                            "vehicle_name": "LS",
+                            "template_id": 8,
+                            "is_car_end": 0,
+                            "pass_threshold": 0.8
+                        },
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114027329.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114027329.jpg",
+                            "n_requests": 48,
+                            "n_data": 239,
+                            "matching_rate": 0.9666355848312378,
+                            "matching_points": {
+                                "x": 437,
+                                "y": 369,
+                                "w": 211,
+                                "h": 46
+                            },
+                            "vehicle_id": 3,
+                            "vehicle_name": "LS",
+                            "template_id": 9,
+                            "is_car_end": 0,
+                            "pass_threshold": 0.8
+                        },
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114027429.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114027429.jpg",
+                            "n_requests": 48,
+                            "n_data": 240,
+                            "matching_rate": 0.9846765995025635,
+                            "matching_points": {
+                                "x": 457,
+                                "y": 282,
+                                "w": 122,
+                                "h": 99
+                            },
+                            "vehicle_id": 3,
+                            "vehicle_name": "LS",
+                            "template_id": 8,
+                            "is_car_end": 0,
+                            "pass_threshold": 0.8
+                        },
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114027429.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114027429.jpg",
+                            "n_requests": 48,
+                            "n_data": 240,
+                            "matching_rate": 0.9653186202049255,
+                            "matching_points": {
+                                "x": 438,
+                                "y": 376,
+                                "w": 211,
+                                "h": 46
+                            },
+                            "vehicle_id": 3,
+                            "vehicle_name": "LS",
+                            "template_id": 9,
+                            "is_car_end": 0,
+                            "pass_threshold": 0.8
+                        },
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114027529.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114027529.jpg",
+                            "n_requests": 49,
+                            "n_data": 241,
+                            "matching_rate": 0.9971293210983276,
+                            "matching_points": {
+                                "x": 457,
+                                "y": 289,
+                                "w": 122,
+                                "h": 99
+                            },
+                            "vehicle_id": 3,
+                            "vehicle_name": "LS",
+                            "template_id": 8,
+                            "is_car_end": 0,
+                            "pass_threshold": 0.8
+                        },
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114027529.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114027529.jpg",
+                            "n_requests": 49,
+                            "n_data": 241,
+                            "matching_rate": 0.9596083760261536,
+                            "matching_points": {
+                                "x": 438,
+                                "y": 383,
+                                "w": 211,
+                                "h": 46
+                            },
+                            "vehicle_id": 3,
+                            "vehicle_name": "LS",
+                            "template_id": 9,
+                            "is_car_end": 0,
+                            "pass_threshold": 0.8
+                        },
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114027629.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114027629.jpg",
+                            "n_requests": 49,
+                            "n_data": 242,
+                            "matching_rate": 0.9659110307693481,
+                            "matching_points": {
+                                "x": 456,
+                                "y": 297,
+                                "w": 122,
+                                "h": 99
+                            },
+                            "vehicle_id": 3,
+                            "vehicle_name": "LS",
+                            "template_id": 8,
+                            "is_car_end": 0,
+                            "pass_threshold": 0.8
+                        },
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114027629.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114027629.jpg",
+                            "n_requests": 49,
+                            "n_data": 242,
+                            "matching_rate": 0.9616178870201111,
+                            "matching_points": {
+                                "x": 437,
+                                "y": 391,
+                                "w": 211,
+                                "h": 46
+                            },
+                            "vehicle_id": 3,
+                            "vehicle_name": "LS",
+                            "template_id": 9,
+                            "is_car_end": 0,
+                            "pass_threshold": 0.8
+                        },
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114027729.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114027729.jpg",
+                            "n_requests": 49,
+                            "n_data": 243,
+                            "matching_rate": 0.9693514108657837,
+                            "matching_points": {
+                                "x": 456,
+                                "y": 304,
+                                "w": 122,
+                                "h": 99
+                            },
+                            "vehicle_id": 3,
+                            "vehicle_name": "LS",
+                            "template_id": 8,
+                            "is_car_end": 0,
+                            "pass_threshold": 0.8
+                        },
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114027729.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114027729.jpg",
+                            "n_requests": 49,
+                            "n_data": 243,
+                            "matching_rate": 0.9697429537773132,
+                            "matching_points": {
+                                "x": 437,
+                                "y": 399,
+                                "w": 211,
+                                "h": 46
+                            },
+                            "vehicle_id": 3,
+                            "vehicle_name": "LS",
+                            "template_id": 9,
+                            "is_car_end": 0,
+                            "pass_threshold": 0.8
+                        },
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114027829.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114027829.jpg",
+                            "n_requests": 49,
+                            "n_data": 244,
+                            "matching_rate": 0.9845066070556641,
+                            "matching_points": {
+                                "x": 438,
+                                "y": 407,
+                                "w": 211,
+                                "h": 46
+                            },
+                            "vehicle_id": 3,
+                            "vehicle_name": "LS",
+                            "template_id": 9,
+                            "is_car_end": 0,
+                            "pass_threshold": 0.8
+                        },
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114027829.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114027829.jpg",
+                            "n_requests": 49,
+                            "n_data": 244,
+                            "matching_rate": 0.9690057039260864,
+                            "matching_points": {
+                                "x": 457,
+                                "y": 312,
+                                "w": 122,
+                                "h": 99
+                            },
+                            "vehicle_id": 3,
+                            "vehicle_name": "LS",
+                            "template_id": 8,
+                            "is_car_end": 0,
+                            "pass_threshold": 0.8
+                        },
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114027929.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114027929.jpg",
+                            "n_requests": 49,
+                            "n_data": 245,
+                            "matching_rate": 0.9993782639503479,
+                            "matching_points": {
+                                "x": 439,
+                                "y": 414,
+                                "w": 211,
+                                "h": 46
+                            },
+                            "vehicle_id": 3,
+                            "vehicle_name": "LS",
+                            "template_id": 9,
+                            "is_car_end": 0,
+                            "pass_threshold": 0.8
+                        },
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114027929.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114027929.jpg",
+                            "n_requests": 49,
+                            "n_data": 245,
+                            "matching_rate": 0.9679756164550781,
+                            "matching_points": {
+                                "x": 458,
+                                "y": 319,
+                                "w": 122,
+                                "h": 99
+                            },
+                            "vehicle_id": 3,
+                            "vehicle_name": "LS",
+                            "template_id": 8,
+                            "is_car_end": 0,
+                            "pass_threshold": 0.8
+                        },
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114028029.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114028029.jpg",
+                            "n_requests": 50,
+                            "n_data": 246,
+                            "matching_rate": 0.9787712097167969,
+                            "matching_points": {
+                                "x": 458,
+                                "y": 327,
+                                "w": 122,
+                                "h": 99
+                            },
+                            "vehicle_id": 3,
+                            "vehicle_name": "LS",
+                            "template_id": 8,
+                            "is_car_end": 0,
+                            "pass_threshold": 0.8
+                        },
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114028029.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114028029.jpg",
+                            "n_requests": 50,
+                            "n_data": 246,
+                            "matching_rate": 0.9848901629447937,
+                            "matching_points": {
+                                "x": 439,
+                                "y": 421,
+                                "w": 211,
+                                "h": 46
+                            },
+                            "vehicle_id": 3,
+                            "vehicle_name": "LS",
+                            "template_id": 9,
+                            "is_car_end": 0,
+                            "pass_threshold": 0.8
+                        },
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114028129.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114028129.jpg",
+                            "n_requests": 50,
+                            "n_data": 247,
+                            "matching_rate": 0.9689555168151855,
+                            "matching_points": {
+                                "x": 457,
+                                "y": 334,
+                                "w": 122,
+                                "h": 99
+                            },
+                            "vehicle_id": 3,
+                            "vehicle_name": "LS",
+                            "template_id": 8,
+                            "is_car_end": 0,
+                            "pass_threshold": 0.8
+                        },
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114028129.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114028129.jpg",
+                            "n_requests": 50,
+                            "n_data": 247,
+                            "matching_rate": 0.9754896759986877,
+                            "matching_points": {
+                                "x": 438,
+                                "y": 429,
+                                "w": 211,
+                                "h": 46
+                            },
+                            "vehicle_id": 3,
+                            "vehicle_name": "LS",
+                            "template_id": 9,
+                            "is_car_end": 0,
+                            "pass_threshold": 0.8
+                        },
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114028230.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114028230.jpg",
+                            "n_requests": 50,
+                            "n_data": 248,
+                            "matching_rate": 0.9759129285812378,
+                            "matching_points": {
+                                "x": 457,
+                                "y": 342,
+                                "w": 122,
+                                "h": 99
+                            },
+                            "vehicle_id": 3,
+                            "vehicle_name": "LS",
+                            "template_id": 8,
+                            "is_car_end": 0,
+                            "pass_threshold": 0.8
+                        },
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114028230.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114028230.jpg",
+                            "n_requests": 50,
+                            "n_data": 248,
+                            "matching_rate": 0.9725764989852905,
+                            "matching_points": {
+                                "x": 438,
+                                "y": 437,
+                                "w": 211,
+                                "h": 46
+                            },
+                            "vehicle_id": 3,
+                            "vehicle_name": "LS",
+                            "template_id": 9,
+                            "is_car_end": 0,
+                            "pass_threshold": 0.8
+                        },
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114028329.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114028329.jpg",
+                            "n_requests": 50,
+                            "n_data": 249,
+                            "matching_rate": 0.9759109020233154,
+                            "matching_points": {
+                                "x": 457,
+                                "y": 349,
+                                "w": 122,
+                                "h": 99
+                            },
+                            "vehicle_id": 3,
+                            "vehicle_name": "LS",
+                            "template_id": 8,
+                            "is_car_end": 0,
+                            "pass_threshold": 0.8
+                        },
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114028329.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114028329.jpg",
+                            "n_requests": 50,
+                            "n_data": 249,
+                            "matching_rate": 0.97235506772995,
+                            "matching_points": {
+                                "x": 438,
+                                "y": 445,
+                                "w": 211,
+                                "h": 46
+                            },
+                            "vehicle_id": 3,
+                            "vehicle_name": "LS",
+                            "template_id": 9,
+                            "is_car_end": 0,
+                            "pass_threshold": 0.8
+                        },
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114028429.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114028429.jpg",
+                            "n_requests": 50,
+                            "n_data": 250,
+                            "matching_rate": 0.9572506546974182,
+                            "matching_points": {
+                                "x": 457,
+                                "y": 357,
+                                "w": 122,
+                                "h": 99
+                            },
+                            "vehicle_id": 3,
+                            "vehicle_name": "LS",
+                            "template_id": 8,
+                            "is_car_end": 0,
+                            "pass_threshold": 0.8
+                        },
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114028429.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114028429.jpg",
+                            "n_requests": 50,
+                            "n_data": 250,
+                            "matching_rate": 0.9776236414909363,
+                            "matching_points": {
+                                "x": 437,
+                                "y": 452,
+                                "w": 211,
+                                "h": 46
+                            },
+                            "vehicle_id": 3,
+                            "vehicle_name": "LS",
+                            "template_id": 9,
+                            "is_car_end": 0,
+                            "pass_threshold": 0.8
+                        },
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114029031.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114029031.jpg",
+                            "n_requests": 51,
+                            "n_data": 251,
+                            "matching_rate": 0.9771681427955627,
+                            "matching_points": {
+                                "x": 436,
+                                "y": 497,
+                                "w": 211,
+                                "h": 46
+                            },
+                            "vehicle_id": 3,
+                            "vehicle_name": "LS",
+                            "template_id": 9,
+                            "is_car_end": 0,
+                            "pass_threshold": 0.8
+                        },
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114029129.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114029129.jpg",
+                            "n_requests": 51,
+                            "n_data": 252,
+                            "matching_rate": 0.9757488965988159,
+                            "matching_points": {
+                                "x": 435,
+                                "y": 505,
+                                "w": 211,
+                                "h": 46
+                            },
+                            "vehicle_id": 3,
+                            "vehicle_name": "LS",
+                            "template_id": 9,
+                            "is_car_end": 0,
+                            "pass_threshold": 0.8
+                        },
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114029229.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114029229.jpg",
+                            "n_requests": 51,
+                            "n_data": 253,
+                            "matching_rate": 0.9715315699577332,
+                            "matching_points": {
+                                "x": 435,
+                                "y": 513,
+                                "w": 211,
+                                "h": 46
+                            },
+                            "vehicle_id": 3,
+                            "vehicle_name": "LS",
+                            "template_id": 9,
+                            "is_car_end": 0,
+                            "pass_threshold": 0.8
+                        }
+                    ]
+                },
+                "end": {
+                    "status": true,
+                    "values": [
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114031129.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114031129.jpg",
+                            "n_requests": 55,
+                            "n_data": 272,
+                            "matching_rate": 0.8013414740562439,
+                            "matching_points": {
+                                "x": 265,
+                                "y": 369,
+                                "w": 538,
+                                "h": 65
+                            },
+                            "vehicle_id": 1,
+                            "vehicle_name": "IS_2WD",
+                            "template_id": 17,
+                            "is_car_end": 1,
+                            "pass_threshold": 0.8
+                        },
+                        {
+                            "input_path": "/home/latona/tartarus/Data/just-list-pictures/file/input/11-35-35_LS/20200302114031229.jpg",
+                            "output_path": "/home/latona/tartarus/Data/template-matching-by-opencv/file/output/20200302114031229.jpg",
+                            "n_requests": 55,
+                            "n_data": 273,
+                            "matching_rate": 0.8013221025466919,
+                            "matching_points": {
+                                "x": 265,
+                                "y": 376,
+                                "w": 538,
+                                "h": 65
+                            },
+                            "vehicle_id": 1,
+                            "vehicle_name": "IS_2WD",
+                            "template_id": 17,
+                            "is_car_end": 1,
+                            "pass_threshold": 0.8
+                        }
+                    ]
+                },
+                "status": true
+            }
+        },
+        {
+            "key": "TemplateMatchingSetTemplates",
+            "value": {
+                "args": {
+                    "vehicle": false,
+                    "vehicle_name": "",
+                    "end": true
+                }
+            }
+        }
+    ],
+    "nextServiceList": [
+        {
+            "nextServiceName": "TemplateMatchingSetTemplates",
+            "nextDirectoryOfService": "/home/latona/deneb/Runtime/template-matching-set-templates",
+            "nextRuntime": {
+                "type": "python",
+                "run": "main.py"
+            },
+            "nextServiceDevice": "deneb"
+        }
+    ]
+}
